@@ -8,14 +8,49 @@
 
 #import "AppDelegate.h"
 
+#import "VinViewController.h"
+#import "CoursViewController.h"
+#import "CommanderViewController.h"
+#import "CommenterViewController.h"
+
 @implementation AppDelegate
+
+@synthesize tabBarController = _tabBarController;
+
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
+
+    
+    _rootViewController = [[RootViewController alloc] initWithNibName:@"RootViewController"bundle:nil];
+    
+    self.window.rootViewController = _rootViewController;
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+    // Allocation du TabBar
+    self.tabBarController = [[UITabBarController alloc] init];
+    // Onglet n°1 : Vins
+    VinViewController *vinViewController = [[VinViewController alloc] initWithNibName:@"VinViewController" bundle:nil]; vinViewController.title = @"Vins";
+    
+    // Onglets n°2 : Cours
+    CoursViewController *coursViewController = [[CoursViewController alloc] initWithNibName:@"CoursViewController" bundle:nil]; coursViewController.title = @"Cours";
+    
+    // Onglet n°3 : Commander
+    CommanderViewController *commanderViewController = [[CommanderViewController alloc] initWithNibName:@"CommanderViewController" bundle:nil]; commanderViewController.title = @"Commander";
+    
+    // Onglet n°4 : Commenter
+    CommenterViewController *commenterViewController = [[CommenterViewController alloc] initWithNibName:@"CommenterViewController" bundle:nil]; commenterViewController.title = @"Commenter";
+    
+    // Ajout des controleurs au TabBar
+    _tabBarController.viewControllers = [NSArray arrayWithObjects:vinViewController, coursViewController, commanderViewController, commenterViewController, nil];
+    
+    // Ajouter la vue du Tab à la fenetre
+    [self.window setRootViewController:_tabBarController];
+    
+    
     return YES;
 }
 
