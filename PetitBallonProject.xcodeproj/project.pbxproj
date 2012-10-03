@@ -28,6 +28,8 @@
 		9B2E4CCA161C6640000FBF91 /* CommenterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B2E4CC8161C6640000FBF91 /* CommenterViewController.xib */; };
 		9B2E4CCE161C676A000FBF91 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B2E4CCC161C6769000FBF91 /* RootViewController.m */; };
 		9B2E4CCF161C676A000FBF91 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B2E4CCD161C676A000FBF91 /* RootViewController.xib */; };
+		9B52B17B161C7415008CF187 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B52B17A161C7415008CF187 /* Default.png */; };
+		9B52B17E161C746C008CF187 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B52B17D161C746B008CF187 /* Default@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +74,8 @@
 		9B2E4CCB161C6769000FBF91 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		9B2E4CCC161C6769000FBF91 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		9B2E4CCD161C676A000FBF91 /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		9B52B17A161C7415008CF187 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = SOURCE_ROOT; };
+		9B52B17D161C746B008CF187 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,21 +137,9 @@
 			children = (
 				9B2E4C92161C61A1000FBF91 /* AppDelegate.h */,
 				9B2E4C93161C61A1000FBF91 /* AppDelegate.m */,
-				9B2E4CCB161C6769000FBF91 /* RootViewController.h */,
-				9B2E4CCC161C6769000FBF91 /* RootViewController.m */,
-				9B2E4CCD161C676A000FBF91 /* RootViewController.xib */,
-				9B2E4CC1161C662D000FBF91 /* CommanderViewController.h */,
-				9B2E4CC2161C662D000FBF91 /* CommanderViewController.m */,
-				9B2E4CC3161C662D000FBF91 /* CommanderViewController.xib */,
-				9B2E4CC6161C6640000FBF91 /* CommenterViewController.h */,
-				9B2E4CC7161C6640000FBF91 /* CommenterViewController.m */,
-				9B2E4CC8161C6640000FBF91 /* CommenterViewController.xib */,
-				9B2E4CBC161C656B000FBF91 /* CoursViewController.h */,
-				9B2E4CBD161C656B000FBF91 /* CoursViewController.m */,
-				9B2E4CBE161C656B000FBF91 /* CoursViewController.xib */,
-				9B2E4CB6161C63C6000FBF91 /* VinViewController.h */,
-				9B2E4CB7161C63C6000FBF91 /* VinViewController.m */,
-				9B2E4CB8161C63C6000FBF91 /* VinViewController.xib */,
+				9B52B181161C7489008CF187 /* Model */,
+				9B52B180161C747C008CF187 /* Controllers */,
+				9B52B17F161C746F008CF187 /* Resources */,
 				9B2E4C8A161C61A1000FBF91 /* Supporting Files */,
 			);
 			path = PetitBallonProject;
@@ -181,6 +173,44 @@
 				9B2E4CA4161C61A1000FBF91 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9B52B17F161C746F008CF187 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9B52B17A161C7415008CF187 /* Default.png */,
+				9B52B17D161C746B008CF187 /* Default@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		9B52B180161C747C008CF187 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9B2E4CCB161C6769000FBF91 /* RootViewController.h */,
+				9B2E4CCC161C6769000FBF91 /* RootViewController.m */,
+				9B2E4CCD161C676A000FBF91 /* RootViewController.xib */,
+				9B2E4CB6161C63C6000FBF91 /* VinViewController.h */,
+				9B2E4CB7161C63C6000FBF91 /* VinViewController.m */,
+				9B2E4CB8161C63C6000FBF91 /* VinViewController.xib */,
+				9B2E4CBC161C656B000FBF91 /* CoursViewController.h */,
+				9B2E4CBD161C656B000FBF91 /* CoursViewController.m */,
+				9B2E4CBE161C656B000FBF91 /* CoursViewController.xib */,
+				9B2E4CC1161C662D000FBF91 /* CommanderViewController.h */,
+				9B2E4CC2161C662D000FBF91 /* CommanderViewController.m */,
+				9B2E4CC3161C662D000FBF91 /* CommanderViewController.xib */,
+				9B2E4CC6161C6640000FBF91 /* CommenterViewController.h */,
+				9B2E4CC7161C6640000FBF91 /* CommenterViewController.m */,
+				9B2E4CC8161C6640000FBF91 /* CommenterViewController.xib */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		9B52B181161C7489008CF187 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +290,8 @@
 				9B2E4CC5161C662D000FBF91 /* CommanderViewController.xib in Resources */,
 				9B2E4CCA161C6640000FBF91 /* CommenterViewController.xib in Resources */,
 				9B2E4CCF161C676A000FBF91 /* RootViewController.xib in Resources */,
+				9B52B17B161C7415008CF187 /* Default.png in Resources */,
+				9B52B17E161C746C008CF187 /* Default@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

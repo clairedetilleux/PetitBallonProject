@@ -13,7 +13,9 @@
 #import "CommanderViewController.h"
 #import "CommenterViewController.h"
 
+#import "RootViewController.h"
 @implementation AppDelegate
+
 
 @synthesize tabBarController = _tabBarController;
 
@@ -24,6 +26,9 @@
     
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+    // Pour affichage du SplashScreen assez longtemps
+    //sleep(3);
     
     // Allocation du TabBar
     self.tabBarController = [[UITabBarController alloc] init];
@@ -46,8 +51,14 @@
     [self.window setRootViewController:_tabBarController];
     
     
-    return YES;
+    // Première page avec interaction barre de navigation
+    RootViewController *rootViewController = [[RootViewController alloc] initWithNibName:@"RootViewController"bundle:nil];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:rootViewController];
+    [self.tabBarController presentModalViewController:nav animated:NO];   
 }
+
+
+
 
 - (void)applicationWillResignActive:(UIApplication *)application
 {

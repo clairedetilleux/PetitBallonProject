@@ -10,4 +10,10 @@
 
 @interface RootViewController : UIViewController
 
+
+{
+    UINavigationController *_navigationController;
+}
+
+
 @end

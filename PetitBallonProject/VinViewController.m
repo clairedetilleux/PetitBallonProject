@@ -7,6 +7,7 @@
 //
 
 #import "VinViewController.h"
+#import "CoursViewController.h"
 
 @interface VinViewController ()
 

@@ -7,6 +7,8 @@
 //
 
 #import "RootViewController.h"
+#import "VinViewController.h"
+
 
 @interface RootViewController ()
 
@@ -26,8 +28,18 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    
+    // Première page avec interaction bouton annuler
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"Entrer" style:UIBarButtonItemStylePlain target:self action:@selector(goToVinView:)];
+    
+    self.title = @"Accueil";
 }
+
+- (void) goToVinView:(id)sender{
+    
+    [self dismissModalViewControllerAnimated:YES];
+}
+
 
 - (void)viewDidUnload
 {
