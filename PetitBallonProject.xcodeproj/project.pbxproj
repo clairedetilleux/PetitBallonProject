@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B2E4C84161C61A1000FBF91 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B2E4C83161C61A1000FBF91 /* UIKit.framework */; };
+		9B2E4C86161C61A1000FBF91 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B2E4C85161C61A1000FBF91 /* Foundation.framework */; };
+		9B2E4C88161C61A1000FBF91 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B2E4C87161C61A1000FBF91 /* CoreGraphics.framework */; };
+		9B2E4C8E161C61A1000FBF91 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9B2E4C8C161C61A1000FBF91 /* InfoPlist.strings */; };
+		9B2E4C90161C61A1000FBF91 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B2E4C8F161C61A1000FBF91 /* main.m */; };
+		9B2E4C94161C61A1000FBF91 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B2E4C93161C61A1000FBF91 /* AppDelegate.m */; };
+		9B2E4C9C161C61A1000FBF91 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B2E4C9B161C61A1000FBF91 /* SenTestingKit.framework */; };
+		9B2E4C9D161C61A1000FBF91 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B2E4C83161C61A1000FBF91 /* UIKit.framework */; };
+		9B2E4C9E161C61A1000FBF91 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B2E4C85161C61A1000FBF91 /* Foundation.framework */; };
+		9B2E4CA6161C61A1000FBF91 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9B2E4CA4161C61A1000FBF91 /* InfoPlist.strings */; };
+		9B2E4CA9161C61A1000FBF91 /* PetitBallonProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B2E4CA8161C61A1000FBF91 /* PetitBallonProjectTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9B2E4C9F161C61A1000FBF91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B2E4C76161C61A1000FBF91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B2E4C7E161C61A1000FBF91;
+			remoteInfo = PetitBallonProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9B2E4C7F161C61A1000FBF91 /* PetitBallonProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetitBallonProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B2E4C83161C61A1000FBF91 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9B2E4C85161C61A1000FBF91 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9B2E4C87161C61A1000FBF91 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9B2E4C8B161C61A1000FBF91 /* PetitBallonProject-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PetitBallonProject-Info.plist"; sourceTree = "<group>"; };
+		9B2E4C8D161C61A1000FBF91 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9B2E4C8F161C61A1000FBF91 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9B2E4C91161C61A1000FBF91 /* PetitBallonProject-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PetitBallonProject-Prefix.pch"; sourceTree = "<group>"; };
+		9B2E4C92161C61A1000FBF91 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9B2E4C93161C61A1000FBF91 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9B2E4C9A161C61A1000FBF91 /* PetitBallonProjectTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PetitBallonProjectTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B2E4C9B161C61A1000FBF91 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		9B2E4CA3161C61A1000FBF91 /* PetitBallonProjectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PetitBallonProjectTests-Info.plist"; sourceTree = "<group>"; };
+		9B2E4CA5161C61A1000FBF91 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9B2E4CA7161C61A1000FBF91 /* PetitBallonProjectTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PetitBallonProjectTests.h; sourceTree = "<group>"; };
+		9B2E4CA8161C61A1000FBF91 /* PetitBallonProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PetitBallonProjectTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B2E4C7C161C61A1000FBF91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B2E4C84161C61A1000FBF91 /* UIKit.framework in Frameworks */,
+				9B2E4C86161C61A1000FBF91 /* Foundation.framework in Frameworks */,
+				9B2E4C88161C61A1000FBF91 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B2E4C96161C61A1000FBF91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B2E4C9C161C61A1000FBF91 /* SenTestingKit.framework in Frameworks */,
+				9B2E4C9D161C61A1000FBF91 /* UIKit.framework in Frameworks */,
+				9B2E4C9E161C61A1000FBF91 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B2E4C74161C61A1000FBF91 = {
+			isa = PBXGroup;
+			children = (
+				9B2E4C89161C61A1000FBF91 /* PetitBallonProject */,
+				9B2E4CA1161C61A1000FBF91 /* PetitBallonProjectTests */,
+				9B2E4C82161C61A1000FBF91 /* Frameworks */,
+				9B2E4C80161C61A1000FBF91 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9B2E4C80161C61A1000FBF91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B2E4C7F161C61A1000FBF91 /* PetitBallonProject.app */,
+				9B2E4C9A161C61A1000FBF91 /* PetitBallonProjectTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B2E4C82161C61A1000FBF91 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B2E4C83161C61A1000FBF91 /* UIKit.framework */,
+				9B2E4C85161C61A1000FBF91 /* Foundation.framework */,
+				9B2E4C87161C61A1000FBF91 /* CoreGraphics.framework */,
+				9B2E4C9B161C61A1000FBF91 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9B2E4C89161C61A1000FBF91 /* PetitBallonProject */ = {
+			isa = PBXGroup;
+			children = (
+				9B2E4C92161C61A1000FBF91 /* AppDelegate.h */,
+				9B2E4C93161C61A1000FBF91 /* AppDelegate.m */,
+				9B2E4C8A161C61A1000FBF91 /* Supporting Files */,
+			);
+			path = PetitBallonProject;
+			sourceTree = "<group>";
+		};
+		9B2E4C8A161C61A1000FBF91 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9B2E4C8B161C61A1000FBF91 /* PetitBallonProject-Info.plist */,
+				9B2E4C8C161C61A1000FBF91 /* InfoPlist.strings */,
+				9B2E4C8F161C61A1000FBF91 /* main.m */,
+				9B2E4C91161C61A1000FBF91 /* PetitBallonProject-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9B2E4CA1161C61A1000FBF91 /* PetitBallonProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				9B2E4CA7161C61A1000FBF91 /* PetitBallonProjectTests.h */,
+				9B2E4CA8161C61A1000FBF91 /* PetitBallonProjectTests.m */,
+				9B2E4CA2161C61A1000FBF91 /* Supporting Files */,
+			);
+			path = PetitBallonProjectTests;
+			sourceTree = "<group>";
+		};
+		9B2E4CA2161C61A1000FBF91 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9B2E4CA3161C61A1000FBF91 /* PetitBallonProjectTests-Info.plist */,
+				9B2E4CA4161C61A1000FBF91 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B2E4C7E161C61A1000FBF91 /* PetitBallonProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B2E4CAC161C61A1000FBF91 /* Build configuration list for PBXNativeTarget "PetitBallonProject" */;
+			buildPhases = (
+				9B2E4C7B161C61A1000FBF91 /* Sources */,
+				9B2E4C7C161C61A1000FBF91 /* Frameworks */,
+				9B2E4C7D161C61A1000FBF91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PetitBallonProject;
+			productName = PetitBallonProject;
+			productReference = 9B2E4C7F161C61A1000FBF91 /* PetitBallonProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9B2E4C99161C61A1000FBF91 /* PetitBallonProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B2E4CAF161C61A1000FBF91 /* Build configuration list for PBXNativeTarget "PetitBallonProjectTests" */;
+			buildPhases = (
+				9B2E4C95161C61A1000FBF91 /* Sources */,
+				9B2E4C96161C61A1000FBF91 /* Frameworks */,
+				9B2E4C97161C61A1000FBF91 /* Resources */,
+				9B2E4C98161C61A1000FBF91 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B2E4CA0161C61A1000FBF91 /* PBXTargetDependency */,
+			);
+			name = PetitBallonProjectTests;
+			productName = PetitBallonProjectTests;
+			productReference = 9B2E4C9A161C61A1000FBF91 /* PetitBallonProjectTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B2E4C76161C61A1000FBF91 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Élèves";
+			};
+			buildConfigurationList = 9B2E4C79161C61A1000FBF91 /* Build configuration list for PBXProject "PetitBallonProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9B2E4C74161C61A1000FBF91;
+			productRefGroup = 9B2E4C80161C61A1000FBF91 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B2E4C7E161C61A1000FBF91 /* PetitBallonProject */,
+				9B2E4C99161C61A1000FBF91 /* PetitBallonProjectTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B2E4C7D161C61A1000FBF91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B2E4C8E161C61A1000FBF91 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B2E4C97161C61A1000FBF91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B2E4CA6161C61A1000FBF91 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9B2E4C98161C61A1000FBF91 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B2E4C7B161C61A1000FBF91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B2E4C90161C61A1000FBF91 /* main.m in Sources */,
+				9B2E4C94161C61A1000FBF91 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B2E4C95161C61A1000FBF91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B2E4CA9161C61A1000FBF91 /* PetitBallonProjectTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9B2E4CA0161C61A1000FBF91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B2E4C7E161C61A1000FBF91 /* PetitBallonProject */;
+			targetProxy = 9B2E4C9F161C61A1000FBF91 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9B2E4C8C161C61A1000FBF91 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B2E4C8D161C61A1000FBF91 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9B2E4CA4161C61A1000FBF91 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B2E4CA5161C61A1000FBF91 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9B2E4CAA161C61A1000FBF91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9B2E4CAB161C61A1000FBF91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B2E4CAD161C61A1000FBF91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PetitBallonProject/PetitBallonProject-Prefix.pch";
+				INFOPLIST_FILE = "PetitBallonProject/PetitBallonProject-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9B2E4CAE161C61A1000FBF91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PetitBallonProject/PetitBallonProject-Prefix.pch";
+				INFOPLIST_FILE = "PetitBallonProject/PetitBallonProject-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9B2E4CB0161C61A1000FBF91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PetitBallonProject.app/PetitBallonProject";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PetitBallonProject/PetitBallonProject-Prefix.pch";
+				INFOPLIST_FILE = "PetitBallonProjectTests/PetitBallonProjectTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		9B2E4CB1161C61A1000FBF91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PetitBallonProject.app/PetitBallonProject";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PetitBallonProject/PetitBallonProject-Prefix.pch";
+				INFOPLIST_FILE = "PetitBallonProjectTests/PetitBallonProjectTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B2E4C79161C61A1000FBF91 /* Build configuration list for PBXProject "PetitBallonProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B2E4CAA161C61A1000FBF91 /* Debug */,
+				9B2E4CAB161C61A1000FBF91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B2E4CAC161C61A1000FBF91 /* Build configuration list for PBXNativeTarget "PetitBallonProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B2E4CAD161C61A1000FBF91 /* Debug */,
+				9B2E4CAE161C61A1000FBF91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9B2E4CAF161C61A1000FBF91 /* Build configuration list for PBXNativeTarget "PetitBallonProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B2E4CB0161C61A1000FBF91 /* Debug */,
+				9B2E4CB1161C61A1000FBF91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B2E4C76161C61A1000FBF91 /* Project object */;
+}
