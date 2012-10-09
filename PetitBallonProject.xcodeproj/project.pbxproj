@@ -18,8 +18,6 @@
 		9B2E4C9E161C61A1000FBF91 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B2E4C85161C61A1000FBF91 /* Foundation.framework */; };
 		9B2E4CA6161C61A1000FBF91 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9B2E4CA4161C61A1000FBF91 /* InfoPlist.strings */; };
 		9B2E4CA9161C61A1000FBF91 /* PetitBallonProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B2E4CA8161C61A1000FBF91 /* PetitBallonProjectTests.m */; };
-		9B2E4CB9161C63C6000FBF91 /* VinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B2E4CB7161C63C6000FBF91 /* VinViewController.m */; };
-		9B2E4CBA161C63C6000FBF91 /* VinViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B2E4CB8161C63C6000FBF91 /* VinViewController.xib */; };
 		9B2E4CBF161C656B000FBF91 /* CoursViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B2E4CBD161C656B000FBF91 /* CoursViewController.m */; };
 		9B2E4CC0161C656B000FBF91 /* CoursViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B2E4CBE161C656B000FBF91 /* CoursViewController.xib */; };
 		9B2E4CC4161C662D000FBF91 /* CommanderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B2E4CC2161C662D000FBF91 /* CommanderViewController.m */; };
@@ -30,6 +28,8 @@
 		9B2E4CCF161C676A000FBF91 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B2E4CCD161C676A000FBF91 /* RootViewController.xib */; };
 		9B52B17B161C7415008CF187 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B52B17A161C7415008CF187 /* Default.png */; };
 		9B52B17E161C746C008CF187 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B52B17D161C746B008CF187 /* Default@2x.png */; };
+		9BAAE0F71624276700250BB1 /* VinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BAAE0F51624276700250BB1 /* VinViewController.m */; };
+		9BAAE0F81624276700250BB1 /* VinViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BAAE0F61624276700250BB1 /* VinViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,9 +59,6 @@
 		9B2E4CA5161C61A1000FBF91 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9B2E4CA7161C61A1000FBF91 /* PetitBallonProjectTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PetitBallonProjectTests.h; sourceTree = "<group>"; };
 		9B2E4CA8161C61A1000FBF91 /* PetitBallonProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PetitBallonProjectTests.m; sourceTree = "<group>"; };
-		9B2E4CB6161C63C6000FBF91 /* VinViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VinViewController.h; sourceTree = "<group>"; };
-		9B2E4CB7161C63C6000FBF91 /* VinViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VinViewController.m; sourceTree = "<group>"; };
-		9B2E4CB8161C63C6000FBF91 /* VinViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VinViewController.xib; sourceTree = "<group>"; };
 		9B2E4CBC161C656B000FBF91 /* CoursViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoursViewController.h; sourceTree = "<group>"; };
 		9B2E4CBD161C656B000FBF91 /* CoursViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoursViewController.m; sourceTree = "<group>"; };
 		9B2E4CBE161C656B000FBF91 /* CoursViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CoursViewController.xib; sourceTree = "<group>"; };
@@ -76,6 +73,9 @@
 		9B2E4CCD161C676A000FBF91 /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
 		9B52B17A161C7415008CF187 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = SOURCE_ROOT; };
 		9B52B17D161C746B008CF187 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = SOURCE_ROOT; };
+		9BAAE0F41624276700250BB1 /* VinViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VinViewController.h; path = ../VinViewController.h; sourceTree = "<group>"; };
+		9BAAE0F51624276700250BB1 /* VinViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VinViewController.m; path = ../VinViewController.m; sourceTree = "<group>"; };
+		9BAAE0F61624276700250BB1 /* VinViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = VinViewController.xib; path = ../VinViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -190,9 +190,9 @@
 				9B2E4CCB161C6769000FBF91 /* RootViewController.h */,
 				9B2E4CCC161C6769000FBF91 /* RootViewController.m */,
 				9B2E4CCD161C676A000FBF91 /* RootViewController.xib */,
-				9B2E4CB6161C63C6000FBF91 /* VinViewController.h */,
-				9B2E4CB7161C63C6000FBF91 /* VinViewController.m */,
-				9B2E4CB8161C63C6000FBF91 /* VinViewController.xib */,
+				9BAAE0F41624276700250BB1 /* VinViewController.h */,
+				9BAAE0F51624276700250BB1 /* VinViewController.m */,
+				9BAAE0F61624276700250BB1 /* VinViewController.xib */,
 				9B2E4CBC161C656B000FBF91 /* CoursViewController.h */,
 				9B2E4CBD161C656B000FBF91 /* CoursViewController.m */,
 				9B2E4CBE161C656B000FBF91 /* CoursViewController.xib */,
@@ -285,13 +285,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B2E4C8E161C61A1000FBF91 /* InfoPlist.strings in Resources */,
-				9B2E4CBA161C63C6000FBF91 /* VinViewController.xib in Resources */,
 				9B2E4CC0161C656B000FBF91 /* CoursViewController.xib in Resources */,
 				9B2E4CC5161C662D000FBF91 /* CommanderViewController.xib in Resources */,
 				9B2E4CCA161C6640000FBF91 /* CommenterViewController.xib in Resources */,
 				9B2E4CCF161C676A000FBF91 /* RootViewController.xib in Resources */,
 				9B52B17B161C7415008CF187 /* Default.png in Resources */,
 				9B52B17E161C746C008CF187 /* Default@2x.png in Resources */,
+				9BAAE0F81624276700250BB1 /* VinViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,11 +328,11 @@
 			files = (
 				9B2E4C90161C61A1000FBF91 /* main.m in Sources */,
 				9B2E4C94161C61A1000FBF91 /* AppDelegate.m in Sources */,
-				9B2E4CB9161C63C6000FBF91 /* VinViewController.m in Sources */,
 				9B2E4CBF161C656B000FBF91 /* CoursViewController.m in Sources */,
 				9B2E4CC4161C662D000FBF91 /* CommanderViewController.m in Sources */,
 				9B2E4CC9161C6640000FBF91 /* CommenterViewController.m in Sources */,
 				9B2E4CCE161C676A000FBF91 /* RootViewController.m in Sources */,
+				9BAAE0F71624276700250BB1 /* VinViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

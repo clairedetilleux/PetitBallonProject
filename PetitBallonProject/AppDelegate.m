@@ -8,23 +8,30 @@
 
 #import "AppDelegate.h"
 
+
+#import "RootViewController.h"
+
+
 #import "VinViewController.h"
 #import "CoursViewController.h"
 #import "CommanderViewController.h"
 #import "CommenterViewController.h"
 
-#import "RootViewController.h"
+
+
 @implementation AppDelegate
 
 
 @synthesize tabBarController = _tabBarController;
-
+@synthesize window = _window;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
     self.window.backgroundColor = [UIColor whiteColor];
+
+    
     [self.window makeKeyAndVisible];
     
     // Pour affichage du SplashScreen assez longtemps
@@ -33,7 +40,9 @@
     // Allocation du TabBar
     self.tabBarController = [[UITabBarController alloc] init];
     // Onglet n°1 : Vins
-    VinViewController *vinViewController = [[VinViewController alloc] initWithNibName:@"VinViewController" bundle:nil]; vinViewController.title = @"Vins";
+    VinViewController *vinViewController = [[VinViewController alloc] initWithNibName:@"VinViewController" bundle:nil];
+    vinViewController.title = @"Vins";
+
     
     // Onglets n°2 : Cours
     CoursViewController *coursViewController = [[CoursViewController alloc] initWithNibName:@"CoursViewController" bundle:nil]; coursViewController.title = @"Cours";
@@ -54,7 +63,9 @@
     // Première page avec interaction barre de navigation
     RootViewController *rootViewController = [[RootViewController alloc] initWithNibName:@"RootViewController"bundle:nil];
     UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:rootViewController];
-    [self.tabBarController presentModalViewController:nav animated:NO];   
+    [self.tabBarController presentModalViewController:nav animated:NO];
+    
+    return YES;
 }
 
 
