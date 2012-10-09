@@ -30,6 +30,7 @@
 		9B52B17E161C746C008CF187 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B52B17D161C746B008CF187 /* Default@2x.png */; };
 		9BAAE0F71624276700250BB1 /* VinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BAAE0F51624276700250BB1 /* VinViewController.m */; };
 		9BAAE0F81624276700250BB1 /* VinViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BAAE0F61624276700250BB1 /* VinViewController.xib */; };
+		9BAAE0FA16243D4900250BB1 /* degrade.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9BAAE0F916243D4900250BB1 /* degrade.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +77,7 @@
 		9BAAE0F41624276700250BB1 /* VinViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VinViewController.h; path = ../VinViewController.h; sourceTree = "<group>"; };
 		9BAAE0F51624276700250BB1 /* VinViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VinViewController.m; path = ../VinViewController.m; sourceTree = "<group>"; };
 		9BAAE0F61624276700250BB1 /* VinViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = VinViewController.xib; path = ../VinViewController.xib; sourceTree = "<group>"; };
+		9BAAE0F916243D4900250BB1 /* degrade.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = degrade.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,6 +195,7 @@
 				9BAAE0F41624276700250BB1 /* VinViewController.h */,
 				9BAAE0F51624276700250BB1 /* VinViewController.m */,
 				9BAAE0F61624276700250BB1 /* VinViewController.xib */,
+				9BAAE0F916243D4900250BB1 /* degrade.jpg */,
 				9B2E4CBC161C656B000FBF91 /* CoursViewController.h */,
 				9B2E4CBD161C656B000FBF91 /* CoursViewController.m */,
 				9B2E4CBE161C656B000FBF91 /* CoursViewController.xib */,
@@ -292,6 +295,7 @@
 				9B52B17B161C7415008CF187 /* Default.png in Resources */,
 				9B52B17E161C746C008CF187 /* Default@2x.png in Resources */,
 				9BAAE0F81624276700250BB1 /* VinViewController.xib in Resources */,
+				9BAAE0FA16243D4900250BB1 /* degrade.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

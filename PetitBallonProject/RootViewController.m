@@ -33,12 +33,13 @@
     // Le bouton entrer permet d'entrer dans l'application
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"Entrer" style:UIBarButtonItemStylePlain target:self action:@selector(goToVinView:)];
     
-    
-    // Ajouter une image de fond ur la page d'accueil 
-    UIImageView *imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"backgroundImage.png"]];
-    [self.view addSubview:imageView];
-    
     self.title = @"Accueil";
+    
+    // Ajouter une image de fond sur la page d'accueil 
+    UIImageView *imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"degrade.jpg"]];
+    [self.view addSubview:imageView];
+
+    
 }
 
 - (void) goToVinView:(id)sender{

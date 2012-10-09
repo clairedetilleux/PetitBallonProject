@@ -28,6 +28,7 @@
     [super viewDidLoad];
     
     _dataToShow = [[NSArray alloc] initWithObjects:@"Vin 1", @"Vin 2", @"Vin 3", @"Vin 4", @"Vin 5", nil];
+  
 }
 
 

@@ -39,22 +39,42 @@
     
     // Allocation du TabBar
     self.tabBarController = [[UITabBarController alloc] init];
+    
+    // Création des onglets
     // Onglet n°1 : Vins
     VinViewController *vinViewController = [[VinViewController alloc] initWithNibName:@"VinViewController" bundle:nil];
+    
+    UINavigationController *vinNavigationController = [[UINavigationController alloc] initWithRootViewController:vinViewController];
     vinViewController.title = @"Vins";
-
+    [vinNavigationController setNavigationBarHidden:NO];
     
     // Onglets n°2 : Cours
-    CoursViewController *coursViewController = [[CoursViewController alloc] initWithNibName:@"CoursViewController" bundle:nil]; coursViewController.title = @"Cours";
+    CoursViewController *coursViewController = [[CoursViewController alloc] initWithNibName:@"CoursViewController" bundle:nil];
+    
+    UINavigationController *coursNavigationController = [[UINavigationController alloc] initWithRootViewController:coursViewController];
+    coursViewController.title = @"Cours";
+    [coursNavigationController setNavigationBarHidden:NO];
+    
     
     // Onglet n°3 : Commander
-    CommanderViewController *commanderViewController = [[CommanderViewController alloc] initWithNibName:@"CommanderViewController" bundle:nil]; commanderViewController.title = @"Commander";
+    CommanderViewController *commanderViewController = [[CommanderViewController alloc] initWithNibName:@"CommanderViewController" bundle:nil];
+    
+    UINavigationController *commanderNavigationController = [[UINavigationController alloc] initWithRootViewController:commanderViewController];
+    commanderViewController.title = @"Commander";
+    [commanderNavigationController setNavigationBarHidden:NO];
+    
     
     // Onglet n°4 : Commenter
-    CommenterViewController *commenterViewController = [[CommenterViewController alloc] initWithNibName:@"CommenterViewController" bundle:nil]; commenterViewController.title = @"Commenter";
+    CommenterViewController *commenterViewController = [[CommenterViewController alloc] initWithNibName:@"CommenterViewController" bundle:nil];
+    
+    UINavigationController *commenterNavigationController = [[UINavigationController alloc] initWithRootViewController:commenterViewController];
+    commenterViewController.title = @"Commenter";
+    [commenterNavigationController setNavigationBarHidden:NO];
+    
+    
     
     // Ajout des controleurs au TabBar
-    _tabBarController.viewControllers = [NSArray arrayWithObjects:vinViewController, coursViewController, commanderViewController, commenterViewController, nil];
+    _tabBarController.viewControllers = [NSArray arrayWithObjects:vinNavigationController, coursNavigationController, commanderNavigationController,commenterNavigationController, nil];
     
     // Ajouter la vue du Tab à la fenetre
     [self.window setRootViewController:_tabBarController];
@@ -64,6 +84,8 @@
     RootViewController *rootViewController = [[RootViewController alloc] initWithNibName:@"RootViewController"bundle:nil];
     UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:rootViewController];
     [self.tabBarController presentModalViewController:nav animated:NO];
+    
+
     
     return YES;
 }
