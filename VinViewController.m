@@ -7,6 +7,9 @@
 //
 
 #import "VinViewController.h"
+#import "WineCell.h"
+
+
 
 @interface VinViewController ()
 
@@ -66,15 +69,19 @@
     return [_dataToShow count];
 }
 
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *) indexPath {
-    static NSString *CellIdentifier = @"Cell";
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *) indexPath
+{
+    static NSString *CellIdentifier = @"WineCell";
+    
+    WineCell *cell = (WineCell*)[tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+    
     if (cell == nil)
     {
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
+        cell = [[WineCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
     }
-    cell.textLabel.text = [_dataToShow objectAtIndex:[indexPath row]];
+    cell.wineName.text = [_dataToShow objectAtIndex:[indexPath row]];
     return cell;
+
 }
 
 

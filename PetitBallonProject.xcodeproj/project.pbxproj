@@ -31,6 +31,9 @@
 		9BAAE0F71624276700250BB1 /* VinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BAAE0F51624276700250BB1 /* VinViewController.m */; };
 		9BAAE0F81624276700250BB1 /* VinViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BAAE0F61624276700250BB1 /* VinViewController.xib */; };
 		9BAAE0FA16243D4900250BB1 /* degrade.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9BAAE0F916243D4900250BB1 /* degrade.jpg */; };
+		9BAAE15616244E3700250BB1 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BAAE15516244E3700250BB1 /* logo.png */; };
+		9BAAE15E1624650A00250BB1 /* WineCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BAAE15D1624650900250BB1 /* WineCell.m */; };
+		9BAAE1601624663900250BB1 /* 87-wine-glass.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BAAE15F1624663900250BB1 /* 87-wine-glass.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +81,10 @@
 		9BAAE0F51624276700250BB1 /* VinViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VinViewController.m; path = ../VinViewController.m; sourceTree = "<group>"; };
 		9BAAE0F61624276700250BB1 /* VinViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = VinViewController.xib; path = ../VinViewController.xib; sourceTree = "<group>"; };
 		9BAAE0F916243D4900250BB1 /* degrade.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = degrade.jpg; sourceTree = "<group>"; };
+		9BAAE15516244E3700250BB1 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		9BAAE15C1624650900250BB1 /* WineCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WineCell.h; sourceTree = "<group>"; };
+		9BAAE15D1624650900250BB1 /* WineCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WineCell.m; sourceTree = "<group>"; };
+		9BAAE15F1624663900250BB1 /* 87-wine-glass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "87-wine-glass.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,7 +202,11 @@
 				9BAAE0F41624276700250BB1 /* VinViewController.h */,
 				9BAAE0F51624276700250BB1 /* VinViewController.m */,
 				9BAAE0F61624276700250BB1 /* VinViewController.xib */,
+				9BAAE15C1624650900250BB1 /* WineCell.h */,
+				9BAAE15D1624650900250BB1 /* WineCell.m */,
+				9BAAE15F1624663900250BB1 /* 87-wine-glass.png */,
 				9BAAE0F916243D4900250BB1 /* degrade.jpg */,
+				9BAAE15516244E3700250BB1 /* logo.png */,
 				9B2E4CBC161C656B000FBF91 /* CoursViewController.h */,
 				9B2E4CBD161C656B000FBF91 /* CoursViewController.m */,
 				9B2E4CBE161C656B000FBF91 /* CoursViewController.xib */,
@@ -296,6 +307,8 @@
 				9B52B17E161C746C008CF187 /* Default@2x.png in Resources */,
 				9BAAE0F81624276700250BB1 /* VinViewController.xib in Resources */,
 				9BAAE0FA16243D4900250BB1 /* degrade.jpg in Resources */,
+				9BAAE15616244E3700250BB1 /* logo.png in Resources */,
+				9BAAE1601624663900250BB1 /* 87-wine-glass.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,6 +350,7 @@
 				9B2E4CC9161C6640000FBF91 /* CommenterViewController.m in Sources */,
 				9B2E4CCE161C676A000FBF91 /* RootViewController.m in Sources */,
 				9BAAE0F71624276700250BB1 /* VinViewController.m in Sources */,
+				9BAAE15E1624650A00250BB1 /* WineCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -38,8 +38,11 @@
     // Ajouter une image de fond sur la page d'accueil 
     UIImageView *imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"degrade.jpg"]];
     [self.view addSubview:imageView];
-
     
+    // Ajouter logo
+    UIImageView *logoView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"logo.png"]];
+    logoView.frame = CGRectMake(100.0, 50.0,120.0, 70.0 );
+    [self.view addSubview:logoView];
 }
 
 - (void) goToVinView:(id)sender{
