@@ -45,7 +45,7 @@
     VinViewController *vinViewController = [[VinViewController alloc] initWithNibName:@"VinViewController" bundle:nil];
     
     UINavigationController *vinNavigationController = [[UINavigationController alloc] initWithRootViewController:vinViewController];
-    vinViewController.title = @"Vins";
+    vinViewController.title = @"Nos Vins";
     [vinNavigationController setNavigationBarHidden:NO];
     
     // Onglets n°2 : Cours

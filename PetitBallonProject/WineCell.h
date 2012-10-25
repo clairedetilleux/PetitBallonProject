@@ -11,5 +11,8 @@
 @interface WineCell : UITableViewCell
 
 @property (nonatomic, strong) UILabel *wineName;
+@property (nonatomic, strong) UILabel *winePrice;
+
+@property (nonatomic, strong) UILabel *wineDate;
 
 @end
