@@ -48,6 +48,9 @@
     vinViewController.title = @"Nos Vins";
     [vinNavigationController setNavigationBarHidden:NO];
     
+    // Cliquer sur une cellule
+    
+    
     // Onglets n°2 : Cours
     CoursViewController *coursViewController = [[CoursViewController alloc] initWithNibName:@"CoursViewController" bundle:nil];
     

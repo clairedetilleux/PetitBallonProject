@@ -8,6 +8,7 @@
 
 #import "VinViewController.h"
 #import "WineCell.h"
+#import "VinListViewController.h"
 
 
 
@@ -29,12 +30,15 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+
     
     _dataToShow = [[NSArray alloc] initWithObjects:@"Vin d'octobre", @"Vin de septembre", @"Vin d'août", @"Vin de juillet", @"Vin de juin", nil];
     
-    _priceToShow = [[NSArray alloc] initWithObjects:@"10€", @"25€", @"17€", @"23€", @"56€", nil];
+    _priceToShow = [[NSArray alloc] initWithObjects:@"10€", @"25€", @"17€", @"23€", @"7€", nil];
     
     _dateToShow = [[NSArray alloc] initWithObjects:@"1920", @"1999", @"2006", @"2010", @"1986", nil];
+    
+    _descriptionToShow = [[NSArray alloc] initWithObjects:@"Très bon vin, beaucoup de caractère.", @"Peu tannique. Idéal pour le dessert.", @"Touche fruitée.Mûre, pêche, orange.", @"Vin d'été. A boire frais.", @"Vin des côtes de Provence.", nil];
   
 }
 
@@ -93,57 +97,18 @@
 
 }
 
-
-/*
-// Override to support conditional editing of the table view.
-- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    // Return NO if you do not want the specified item to be editable.
-    return YES;
-}
-*/
-
-/*
-// Override to support editing the table view.
-- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    if (editingStyle == UITableViewCellEditingStyleDelete) {
-        // Delete the row from the data source
-        [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
-    }   
-    else if (editingStyle == UITableViewCellEditingStyleInsert) {
-        // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-    }   
-}
-*/
-
-/*
-// Override to support rearranging the table view.
-- (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath
-{
-}
-*/
-
-/*
-// Override to support conditional rearranging of the table view.
-- (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    // Return NO if you do not want the item to be re-orderable.
-    return YES;
-}
-*/
-
 #pragma mark - Table view delegate
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    // Navigation logic may go here. Create and push another view controller.
-    /*
-     <#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:@"<#Nib name#>" bundle:nil];
-     // ...
-     // Pass the selected object to the new view controller.
-     [self.navigationController pushViewController:detailViewController animated:YES];
-     */
+    VinListViewController *vinListViewController = [[VinListViewController alloc] initWithNibName:@"VinListViewController" bundle:nil];
+    vinListViewController.titre = [_dataToShow objectAtIndex:[indexPath row]];
+    vinListViewController.price = [_priceToShow objectAtIndex:[indexPath row]];
+    vinListViewController.date = [_dateToShow objectAtIndex:[indexPath row]];
+    vinListViewController.description = [_descriptionToShow objectAtIndex:[indexPath row]];
+
+    
+    [self.navigationController pushViewController:vinListViewController animated:YES];
 }
 
 @end

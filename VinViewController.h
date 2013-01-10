@@ -14,6 +14,8 @@
     NSArray *_dataToShow;
     NSArray *_priceToShow;
     NSArray *_dateToShow;
+    NSArray *_descriptionToShow;
+
 }
 
 
