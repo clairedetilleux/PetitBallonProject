@@ -7,16 +7,19 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DownloadManager.h"
 
-@interface VinViewController : UITableViewController
+@interface VinViewController : UITableViewController <DownloadDelegate>
 
 {
-    NSArray *_dataToShow;
+    
+    UIActivityIndicatorView *_activity;
+    NSMutableArray *_arrayOfVin;
+    
+    /*NSArray *_dataToShow;
     NSArray *_priceToShow;
     NSArray *_dateToShow;
-    NSArray *_descriptionToShow;
+    NSArray *_descriptionToShow;*/
 
 }
-
-
 @end

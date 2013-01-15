@@ -7,18 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C46EF2216A5A1E200C64468 /* Vin.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C46EF2116A5A1E200C64468 /* Vin.m */; };
+		4C46EF2316A5A1E200C64468 /* Vin.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C46EF2116A5A1E200C64468 /* Vin.m */; };
+		4C46EF3616A5AD8A00C64468 /* DownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C46EF3316A5AD8A00C64468 /* DownloadManager.m */; };
+		4C46EF3716A5AD8A00C64468 /* DownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C46EF3316A5AD8A00C64468 /* DownloadManager.m */; };
+		4C46EF3816A5AD8A00C64468 /* DownloadOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C46EF3516A5AD8A00C64468 /* DownloadOperation.m */; };
+		4C46EF3916A5AD8A00C64468 /* DownloadOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C46EF3516A5AD8A00C64468 /* DownloadOperation.m */; };
 		9B230D85169EC5B10063DBAE /* VinListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B230D83169EC5B10063DBAE /* VinListViewController.m */; };
 		9B230D86169EC5B10063DBAE /* VinListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B230D84169EC5B10063DBAE /* VinListViewController.xib */; };
 		9B230D8B169EE4B20063DBAE /* CoursViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B230D89169EE4B20063DBAE /* CoursViewController.m */; };
 		9B230D8C169EE4B20063DBAE /* CoursViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B230D8A169EE4B20063DBAE /* CoursViewController.xib */; };
-		9B2ADAB41639275900E1F274 /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B2ADAB31639275900E1F274 /* iCarousel.m */; };
-		9B2ADABB1639276300E1F274 /* LBYouTubePlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B2ADAB81639276300E1F274 /* LBYouTubePlayerController.m */; };
-		9B2ADABC1639276300E1F274 /* LBYouTubePlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B2ADABA1639276300E1F274 /* LBYouTubePlayerViewController.m */; };
-		9B2ADAC21639276A00E1F274 /* CHANGELOG.md in Resources */ = {isa = PBXBuildFile; fileRef = 9B2ADABE1639276A00E1F274 /* CHANGELOG.md */; };
-		9B2ADAC31639276A00E1F274 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B2ADAC01639276A00E1F274 /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		9B2ADAC41639276A00E1F274 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 9B2ADAC11639276A00E1F274 /* README.md */; };
-		9B2ADACA1639277C00E1F274 /* DownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B2ADAC71639277C00E1F274 /* DownloadManager.m */; };
-		9B2ADACB1639277C00E1F274 /* DownloadOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B2ADAC91639277C00E1F274 /* DownloadOperation.m */; };
 		9B2ADAD1163927FE00E1F274 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B2ADAD0163927FE00E1F274 /* MediaPlayer.framework */; };
 		9B2ADAD31639280500E1F274 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B2ADAD21639280500E1F274 /* QuartzCore.framework */; };
 		9B2ADAD616393AEA00E1F274 /* ListeVin.json in Resources */ = {isa = PBXBuildFile; fileRef = 9B2ADAD516393AEA00E1F274 /* ListeVin.json */; };
@@ -60,27 +58,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4C46EF2016A5A1E200C64468 /* Vin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Vin.h; path = "../../../Downloads/MSToolTips-master/MSToolTips/Vin.h"; sourceTree = "<group>"; };
+		4C46EF2116A5A1E200C64468 /* Vin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Vin.m; path = "../../../Downloads/MSToolTips-master/MSToolTips/Vin.m"; sourceTree = "<group>"; };
+		4C46EF3116A5AD8A00C64468 /* DownloadDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadDelegate.h; sourceTree = "<group>"; };
+		4C46EF3216A5AD8A00C64468 /* DownloadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadManager.h; sourceTree = "<group>"; };
+		4C46EF3316A5AD8A00C64468 /* DownloadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadManager.m; sourceTree = "<group>"; };
+		4C46EF3416A5AD8A00C64468 /* DownloadOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadOperation.h; sourceTree = "<group>"; };
+		4C46EF3516A5AD8A00C64468 /* DownloadOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadOperation.m; sourceTree = "<group>"; };
 		9B230D82169EC5B10063DBAE /* VinListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VinListViewController.h; sourceTree = "<group>"; };
 		9B230D83169EC5B10063DBAE /* VinListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VinListViewController.m; sourceTree = "<group>"; };
 		9B230D84169EC5B10063DBAE /* VinListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VinListViewController.xib; sourceTree = "<group>"; };
 		9B230D88169EE4B20063DBAE /* CoursViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoursViewController.h; sourceTree = "<group>"; };
 		9B230D89169EE4B20063DBAE /* CoursViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoursViewController.m; sourceTree = "<group>"; };
 		9B230D8A169EE4B20063DBAE /* CoursViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CoursViewController.xib; sourceTree = "<group>"; };
-		9B2ADAB21639275900E1F274 /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
-		9B2ADAB31639275900E1F274 /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
-		9B2ADAB71639276300E1F274 /* LBYouTubePlayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBYouTubePlayerController.h; sourceTree = "<group>"; };
-		9B2ADAB81639276300E1F274 /* LBYouTubePlayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBYouTubePlayerController.m; sourceTree = "<group>"; };
-		9B2ADAB91639276300E1F274 /* LBYouTubePlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBYouTubePlayerViewController.h; sourceTree = "<group>"; };
-		9B2ADABA1639276300E1F274 /* LBYouTubePlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBYouTubePlayerViewController.m; sourceTree = "<group>"; };
-		9B2ADABE1639276A00E1F274 /* CHANGELOG.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CHANGELOG.md; sourceTree = "<group>"; };
-		9B2ADABF1639276A00E1F274 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
-		9B2ADAC01639276A00E1F274 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
-		9B2ADAC11639276A00E1F274 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
-		9B2ADAC51639277C00E1F274 /* DownloadDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DownloadDelegate.h; path = MSToolTips/MSToolTips/DownloadDelegate.h; sourceTree = SOURCE_ROOT; };
-		9B2ADAC61639277C00E1F274 /* DownloadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DownloadManager.h; path = MSToolTips/MSToolTips/DownloadManager.h; sourceTree = SOURCE_ROOT; };
-		9B2ADAC71639277C00E1F274 /* DownloadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DownloadManager.m; path = MSToolTips/MSToolTips/DownloadManager.m; sourceTree = SOURCE_ROOT; };
-		9B2ADAC81639277C00E1F274 /* DownloadOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DownloadOperation.h; path = MSToolTips/MSToolTips/DownloadOperation.h; sourceTree = SOURCE_ROOT; };
-		9B2ADAC91639277C00E1F274 /* DownloadOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DownloadOperation.m; path = MSToolTips/MSToolTips/DownloadOperation.m; sourceTree = SOURCE_ROOT; };
 		9B2ADAD0163927FE00E1F274 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		9B2ADAD21639280500E1F274 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		9B2ADAD516393AEA00E1F274 /* ListeVin.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ListeVin.json; sourceTree = "<group>"; };
@@ -147,53 +137,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9B2ADAB11639275900E1F274 /* iCarousel */ = {
+		4C46EF2416A5A35300C64468 /* Download */ = {
 			isa = PBXGroup;
 			children = (
-				9B2ADAB21639275900E1F274 /* iCarousel.h */,
-				9B2ADAB31639275900E1F274 /* iCarousel.m */,
+				4C46EF3116A5AD8A00C64468 /* DownloadDelegate.h */,
+				4C46EF3216A5AD8A00C64468 /* DownloadManager.h */,
+				4C46EF3316A5AD8A00C64468 /* DownloadManager.m */,
+				4C46EF3416A5AD8A00C64468 /* DownloadOperation.h */,
+				4C46EF3516A5AD8A00C64468 /* DownloadOperation.m */,
 			);
-			name = iCarousel;
-			path = MSToolTips/vendor/iCarousel/iCarousel;
-			sourceTree = SOURCE_ROOT;
-		};
-		9B2ADAB61639276300E1F274 /* LBYouTubePlayerController */ = {
-			isa = PBXGroup;
-			children = (
-				9B2ADAB71639276300E1F274 /* LBYouTubePlayerController.h */,
-				9B2ADAB81639276300E1F274 /* LBYouTubePlayerController.m */,
-				9B2ADAB91639276300E1F274 /* LBYouTubePlayerViewController.h */,
-				9B2ADABA1639276300E1F274 /* LBYouTubePlayerViewController.m */,
-			);
-			name = LBYouTubePlayerController;
-			path = MSToolTips/vendor/LBYoutubeView/LBYouTubePlayerController;
-			sourceTree = SOURCE_ROOT;
-		};
-		9B2ADABD1639276A00E1F274 /* JSONKit */ = {
-			isa = PBXGroup;
-			children = (
-				9B2ADABE1639276A00E1F274 /* CHANGELOG.md */,
-				9B2ADABF1639276A00E1F274 /* JSONKit.h */,
-				9B2ADAC01639276A00E1F274 /* JSONKit.m */,
-				9B2ADAC11639276A00E1F274 /* README.md */,
-			);
-			name = JSONKit;
-			path = MSToolTips/vendor/LBYoutubeView/Submodules/JSONKit;
-			sourceTree = SOURCE_ROOT;
-		};
-		9B2ADAD41639280F00E1F274 /* MSToolTips */ = {
-			isa = PBXGroup;
-			children = (
-				9B2ADAC51639277C00E1F274 /* DownloadDelegate.h */,
-				9B2ADAC61639277C00E1F274 /* DownloadManager.h */,
-				9B2ADAC71639277C00E1F274 /* DownloadManager.m */,
-				9B2ADAC81639277C00E1F274 /* DownloadOperation.h */,
-				9B2ADAC91639277C00E1F274 /* DownloadOperation.m */,
-				9B2ADABD1639276A00E1F274 /* JSONKit */,
-				9B2ADAB61639276300E1F274 /* LBYouTubePlayerController */,
-				9B2ADAB11639275900E1F274 /* iCarousel */,
-			);
-			name = MSToolTips;
+			name = Download;
 			sourceTree = "<group>";
 		};
 		9B2E4C74161C61A1000FBF91 = {
@@ -231,7 +184,7 @@
 		9B2E4C89161C61A1000FBF91 /* PetitBallonProject */ = {
 			isa = PBXGroup;
 			children = (
-				9B2ADAD41639280F00E1F274 /* MSToolTips */,
+				4C46EF2416A5A35300C64468 /* Download */,
 				9B2E4C92161C61A1000FBF91 /* AppDelegate.h */,
 				9B2E4C93161C61A1000FBF91 /* AppDelegate.m */,
 				9B52B181161C7489008CF187 /* Model */,
@@ -292,6 +245,8 @@
 				9BAAE0F41624276700250BB1 /* VinViewController.h */,
 				9BAAE0F51624276700250BB1 /* VinViewController.m */,
 				9BAAE0F61624276700250BB1 /* VinViewController.xib */,
+				4C46EF2016A5A1E200C64468 /* Vin.h */,
+				4C46EF2116A5A1E200C64468 /* Vin.m */,
 				9B2ADAD516393AEA00E1F274 /* ListeVin.json */,
 				9BAAE15C1624650900250BB1 /* WineCell.h */,
 				9BAAE15D1624650900250BB1 /* WineCell.m */,
@@ -400,8 +355,6 @@
 				9BAAE0FA16243D4900250BB1 /* degrade.jpg in Resources */,
 				9BAAE15616244E3700250BB1 /* logo.png in Resources */,
 				9BAAE1601624663900250BB1 /* 87-wine-glass.png in Resources */,
-				9B2ADAC21639276A00E1F274 /* CHANGELOG.md in Resources */,
-				9B2ADAC41639276A00E1F274 /* README.md in Resources */,
 				9B2ADAD616393AEA00E1F274 /* ListeVin.json in Resources */,
 				9B230D86169EC5B10063DBAE /* VinListViewController.xib in Resources */,
 				9B230D8C169EE4B20063DBAE /* CoursViewController.xib in Resources */,
@@ -446,14 +399,11 @@
 				9B2E4CCE161C676A000FBF91 /* RootViewController.m in Sources */,
 				9BAAE0F71624276700250BB1 /* VinViewController.m in Sources */,
 				9BAAE15E1624650A00250BB1 /* WineCell.m in Sources */,
-				9B2ADAB41639275900E1F274 /* iCarousel.m in Sources */,
-				9B2ADABB1639276300E1F274 /* LBYouTubePlayerController.m in Sources */,
-				9B2ADABC1639276300E1F274 /* LBYouTubePlayerViewController.m in Sources */,
-				9B2ADAC31639276A00E1F274 /* JSONKit.m in Sources */,
-				9B2ADACA1639277C00E1F274 /* DownloadManager.m in Sources */,
-				9B2ADACB1639277C00E1F274 /* DownloadOperation.m in Sources */,
 				9B230D85169EC5B10063DBAE /* VinListViewController.m in Sources */,
 				9B230D8B169EE4B20063DBAE /* CoursViewController.m in Sources */,
+				4C46EF2216A5A1E200C64468 /* Vin.m in Sources */,
+				4C46EF3616A5AD8A00C64468 /* DownloadManager.m in Sources */,
+				4C46EF3816A5AD8A00C64468 /* DownloadOperation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -462,6 +412,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B2E4CA9161C61A1000FBF91 /* PetitBallonProjectTests.m in Sources */,
+				4C46EF2316A5A1E200C64468 /* Vin.m in Sources */,
+				4C46EF3716A5AD8A00C64468 /* DownloadManager.m in Sources */,
+				4C46EF3916A5AD8A00C64468 /* DownloadOperation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
