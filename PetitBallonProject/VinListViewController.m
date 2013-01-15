@@ -7,6 +7,9 @@
 //
 
 #import "VinListViewController.h"
+#import "Vin.h"
+#import "VinViewController.h"
+
 
 @interface VinListViewController ()
 
@@ -26,10 +29,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+        
     // Do any additional setup after loading the view from its nib.
     _label = [[UILabel alloc] initWithFrame:CGRectMake(20, 0, 200, 30)];
     [self.view addSubview:_label];
-    _label.text = _titre;
     
     _labelPrice = [[UILabel alloc] initWithFrame:CGRectMake(20, 30, 200, 30)];
     [self.view addSubview:_labelPrice];
@@ -42,7 +45,11 @@
     _labelDescription = [[UILabel alloc] initWithFrame:CGRectMake(20, 90, 400, 30)];
     [self.view addSubview:_labelDescription];
     _labelDescription.text = _description;
-
+    
+    
+    
+    
+    
     
 }
 

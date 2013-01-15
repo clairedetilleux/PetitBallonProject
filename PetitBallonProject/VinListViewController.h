@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "VinViewController.h"
 
 @interface VinListViewController : UIViewController
 {
@@ -14,6 +15,7 @@
     UILabel *_labelPrice;
     UILabel *_labelDate;
     UILabel *_labelDescription;
+
 }
 
 

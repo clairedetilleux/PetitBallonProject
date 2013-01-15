@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C0D50C616A5CD41004299F2 /* VinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C0D50C416A5CD41004299F2 /* VinViewController.m */; };
+		4C0D50C716A5CD41004299F2 /* VinViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C0D50C516A5CD41004299F2 /* VinViewController.xib */; };
 		4C46EF2216A5A1E200C64468 /* Vin.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C46EF2116A5A1E200C64468 /* Vin.m */; };
 		4C46EF2316A5A1E200C64468 /* Vin.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C46EF2116A5A1E200C64468 /* Vin.m */; };
 		4C46EF3616A5AD8A00C64468 /* DownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C46EF3316A5AD8A00C64468 /* DownloadManager.m */; };
@@ -29,8 +31,6 @@
 		9B2E4C9C161C61A1000FBF91 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B2E4C9B161C61A1000FBF91 /* SenTestingKit.framework */; };
 		9B2E4C9D161C61A1000FBF91 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B2E4C83161C61A1000FBF91 /* UIKit.framework */; };
 		9B2E4C9E161C61A1000FBF91 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B2E4C85161C61A1000FBF91 /* Foundation.framework */; };
-		9B2E4CA6161C61A1000FBF91 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9B2E4CA4161C61A1000FBF91 /* InfoPlist.strings */; };
-		9B2E4CA9161C61A1000FBF91 /* PetitBallonProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B2E4CA8161C61A1000FBF91 /* PetitBallonProjectTests.m */; };
 		9B2E4CC4161C662D000FBF91 /* CommanderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B2E4CC2161C662D000FBF91 /* CommanderViewController.m */; };
 		9B2E4CC5161C662D000FBF91 /* CommanderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B2E4CC3161C662D000FBF91 /* CommanderViewController.xib */; };
 		9B2E4CC9161C6640000FBF91 /* CommenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B2E4CC7161C6640000FBF91 /* CommenterViewController.m */; };
@@ -39,8 +39,6 @@
 		9B2E4CCF161C676A000FBF91 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B2E4CCD161C676A000FBF91 /* RootViewController.xib */; };
 		9B52B17B161C7415008CF187 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B52B17A161C7415008CF187 /* Default.png */; };
 		9B52B17E161C746C008CF187 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B52B17D161C746B008CF187 /* Default@2x.png */; };
-		9BAAE0F71624276700250BB1 /* VinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BAAE0F51624276700250BB1 /* VinViewController.m */; };
-		9BAAE0F81624276700250BB1 /* VinViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BAAE0F61624276700250BB1 /* VinViewController.xib */; };
 		9BAAE0FA16243D4900250BB1 /* degrade.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9BAAE0F916243D4900250BB1 /* degrade.jpg */; };
 		9BAAE15616244E3700250BB1 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BAAE15516244E3700250BB1 /* logo.png */; };
 		9BAAE15E1624650A00250BB1 /* WineCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BAAE15D1624650900250BB1 /* WineCell.m */; };
@@ -58,6 +56,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4C0D50C316A5CD41004299F2 /* VinViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VinViewController.h; sourceTree = "<group>"; };
+		4C0D50C416A5CD41004299F2 /* VinViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VinViewController.m; sourceTree = "<group>"; };
+		4C0D50C516A5CD41004299F2 /* VinViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VinViewController.xib; sourceTree = "<group>"; };
 		4C46EF2016A5A1E200C64468 /* Vin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Vin.h; path = "../../../Downloads/MSToolTips-master/MSToolTips/Vin.h"; sourceTree = "<group>"; };
 		4C46EF2116A5A1E200C64468 /* Vin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Vin.m; path = "../../../Downloads/MSToolTips-master/MSToolTips/Vin.m"; sourceTree = "<group>"; };
 		4C46EF3116A5AD8A00C64468 /* DownloadDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadDelegate.h; sourceTree = "<group>"; };
@@ -86,10 +87,6 @@
 		9B2E4C93161C61A1000FBF91 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		9B2E4C9A161C61A1000FBF91 /* PetitBallonProjectTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PetitBallonProjectTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B2E4C9B161C61A1000FBF91 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		9B2E4CA3161C61A1000FBF91 /* PetitBallonProjectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PetitBallonProjectTests-Info.plist"; sourceTree = "<group>"; };
-		9B2E4CA5161C61A1000FBF91 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		9B2E4CA7161C61A1000FBF91 /* PetitBallonProjectTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PetitBallonProjectTests.h; sourceTree = "<group>"; };
-		9B2E4CA8161C61A1000FBF91 /* PetitBallonProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PetitBallonProjectTests.m; sourceTree = "<group>"; };
 		9B2E4CC1161C662D000FBF91 /* CommanderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommanderViewController.h; sourceTree = "<group>"; };
 		9B2E4CC2161C662D000FBF91 /* CommanderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommanderViewController.m; sourceTree = "<group>"; };
 		9B2E4CC3161C662D000FBF91 /* CommanderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CommanderViewController.xib; sourceTree = "<group>"; };
@@ -101,9 +98,6 @@
 		9B2E4CCD161C676A000FBF91 /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
 		9B52B17A161C7415008CF187 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = SOURCE_ROOT; };
 		9B52B17D161C746B008CF187 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = SOURCE_ROOT; };
-		9BAAE0F41624276700250BB1 /* VinViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VinViewController.h; path = ../VinViewController.h; sourceTree = "<group>"; };
-		9BAAE0F51624276700250BB1 /* VinViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VinViewController.m; path = ../VinViewController.m; sourceTree = "<group>"; };
-		9BAAE0F61624276700250BB1 /* VinViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = VinViewController.xib; path = ../VinViewController.xib; sourceTree = "<group>"; };
 		9BAAE0F916243D4900250BB1 /* degrade.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = degrade.jpg; sourceTree = "<group>"; };
 		9BAAE15516244E3700250BB1 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		9BAAE15C1624650900250BB1 /* WineCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WineCell.h; sourceTree = "<group>"; };
@@ -153,7 +147,6 @@
 			isa = PBXGroup;
 			children = (
 				9B2E4C89161C61A1000FBF91 /* PetitBallonProject */,
-				9B2E4CA1161C61A1000FBF91 /* PetitBallonProjectTests */,
 				9B2E4C82161C61A1000FBF91 /* Frameworks */,
 				9B2E4C80161C61A1000FBF91 /* Products */,
 			);
@@ -206,25 +199,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		9B2E4CA1161C61A1000FBF91 /* PetitBallonProjectTests */ = {
-			isa = PBXGroup;
-			children = (
-				9B2E4CA7161C61A1000FBF91 /* PetitBallonProjectTests.h */,
-				9B2E4CA8161C61A1000FBF91 /* PetitBallonProjectTests.m */,
-				9B2E4CA2161C61A1000FBF91 /* Supporting Files */,
-			);
-			path = PetitBallonProjectTests;
-			sourceTree = "<group>";
-		};
-		9B2E4CA2161C61A1000FBF91 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				9B2E4CA3161C61A1000FBF91 /* PetitBallonProjectTests-Info.plist */,
-				9B2E4CA4161C61A1000FBF91 /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		9B52B17F161C746F008CF187 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -242,9 +216,9 @@
 				9B2E4CCD161C676A000FBF91 /* RootViewController.xib */,
 				9BAAE15516244E3700250BB1 /* logo.png */,
 				9BAAE0F916243D4900250BB1 /* degrade.jpg */,
-				9BAAE0F41624276700250BB1 /* VinViewController.h */,
-				9BAAE0F51624276700250BB1 /* VinViewController.m */,
-				9BAAE0F61624276700250BB1 /* VinViewController.xib */,
+				4C0D50C316A5CD41004299F2 /* VinViewController.h */,
+				4C0D50C416A5CD41004299F2 /* VinViewController.m */,
+				4C0D50C516A5CD41004299F2 /* VinViewController.xib */,
 				4C46EF2016A5A1E200C64468 /* Vin.h */,
 				4C46EF2116A5A1E200C64468 /* Vin.m */,
 				9B2ADAD516393AEA00E1F274 /* ListeVin.json */,
@@ -351,13 +325,13 @@
 				9B2E4CCF161C676A000FBF91 /* RootViewController.xib in Resources */,
 				9B52B17B161C7415008CF187 /* Default.png in Resources */,
 				9B52B17E161C746C008CF187 /* Default@2x.png in Resources */,
-				9BAAE0F81624276700250BB1 /* VinViewController.xib in Resources */,
 				9BAAE0FA16243D4900250BB1 /* degrade.jpg in Resources */,
 				9BAAE15616244E3700250BB1 /* logo.png in Resources */,
 				9BAAE1601624663900250BB1 /* 87-wine-glass.png in Resources */,
 				9B2ADAD616393AEA00E1F274 /* ListeVin.json in Resources */,
 				9B230D86169EC5B10063DBAE /* VinListViewController.xib in Resources */,
 				9B230D8C169EE4B20063DBAE /* CoursViewController.xib in Resources */,
+				4C0D50C716A5CD41004299F2 /* VinViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,7 +339,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B2E4CA6161C61A1000FBF91 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,13 +370,13 @@
 				9B2E4CC4161C662D000FBF91 /* CommanderViewController.m in Sources */,
 				9B2E4CC9161C6640000FBF91 /* CommenterViewController.m in Sources */,
 				9B2E4CCE161C676A000FBF91 /* RootViewController.m in Sources */,
-				9BAAE0F71624276700250BB1 /* VinViewController.m in Sources */,
 				9BAAE15E1624650A00250BB1 /* WineCell.m in Sources */,
 				9B230D85169EC5B10063DBAE /* VinListViewController.m in Sources */,
 				9B230D8B169EE4B20063DBAE /* CoursViewController.m in Sources */,
 				4C46EF2216A5A1E200C64468 /* Vin.m in Sources */,
 				4C46EF3616A5AD8A00C64468 /* DownloadManager.m in Sources */,
 				4C46EF3816A5AD8A00C64468 /* DownloadOperation.m in Sources */,
+				4C0D50C616A5CD41004299F2 /* VinViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,7 +384,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B2E4CA9161C61A1000FBF91 /* PetitBallonProjectTests.m in Sources */,
 				4C46EF2316A5A1E200C64468 /* Vin.m in Sources */,
 				4C46EF3716A5AD8A00C64468 /* DownloadManager.m in Sources */,
 				4C46EF3916A5AD8A00C64468 /* DownloadOperation.m in Sources */,
@@ -433,14 +405,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				9B2E4C8D161C61A1000FBF91 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		9B2E4CA4161C61A1000FBF91 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9B2E4CA5161C61A1000FBF91 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
