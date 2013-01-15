@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		9B230D85169EC5B10063DBAE /* VinListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B230D83169EC5B10063DBAE /* VinListViewController.m */; };
 		9B230D86169EC5B10063DBAE /* VinListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B230D84169EC5B10063DBAE /* VinListViewController.xib */; };
+		9B230D8B169EE4B20063DBAE /* CoursViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B230D89169EE4B20063DBAE /* CoursViewController.m */; };
+		9B230D8C169EE4B20063DBAE /* CoursViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B230D8A169EE4B20063DBAE /* CoursViewController.xib */; };
 		9B2ADAB41639275900E1F274 /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B2ADAB31639275900E1F274 /* iCarousel.m */; };
 		9B2ADABB1639276300E1F274 /* LBYouTubePlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B2ADAB81639276300E1F274 /* LBYouTubePlayerController.m */; };
 		9B2ADABC1639276300E1F274 /* LBYouTubePlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B2ADABA1639276300E1F274 /* LBYouTubePlayerViewController.m */; };
@@ -31,8 +33,6 @@
 		9B2E4C9E161C61A1000FBF91 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B2E4C85161C61A1000FBF91 /* Foundation.framework */; };
 		9B2E4CA6161C61A1000FBF91 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9B2E4CA4161C61A1000FBF91 /* InfoPlist.strings */; };
 		9B2E4CA9161C61A1000FBF91 /* PetitBallonProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B2E4CA8161C61A1000FBF91 /* PetitBallonProjectTests.m */; };
-		9B2E4CBF161C656B000FBF91 /* CoursViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B2E4CBD161C656B000FBF91 /* CoursViewController.m */; };
-		9B2E4CC0161C656B000FBF91 /* CoursViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B2E4CBE161C656B000FBF91 /* CoursViewController.xib */; };
 		9B2E4CC4161C662D000FBF91 /* CommanderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B2E4CC2161C662D000FBF91 /* CommanderViewController.m */; };
 		9B2E4CC5161C662D000FBF91 /* CommanderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B2E4CC3161C662D000FBF91 /* CommanderViewController.xib */; };
 		9B2E4CC9161C6640000FBF91 /* CommenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B2E4CC7161C6640000FBF91 /* CommenterViewController.m */; };
@@ -63,6 +63,9 @@
 		9B230D82169EC5B10063DBAE /* VinListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VinListViewController.h; sourceTree = "<group>"; };
 		9B230D83169EC5B10063DBAE /* VinListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VinListViewController.m; sourceTree = "<group>"; };
 		9B230D84169EC5B10063DBAE /* VinListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VinListViewController.xib; sourceTree = "<group>"; };
+		9B230D88169EE4B20063DBAE /* CoursViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoursViewController.h; sourceTree = "<group>"; };
+		9B230D89169EE4B20063DBAE /* CoursViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoursViewController.m; sourceTree = "<group>"; };
+		9B230D8A169EE4B20063DBAE /* CoursViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CoursViewController.xib; sourceTree = "<group>"; };
 		9B2ADAB21639275900E1F274 /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
 		9B2ADAB31639275900E1F274 /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
 		9B2ADAB71639276300E1F274 /* LBYouTubePlayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBYouTubePlayerController.h; sourceTree = "<group>"; };
@@ -97,9 +100,6 @@
 		9B2E4CA5161C61A1000FBF91 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9B2E4CA7161C61A1000FBF91 /* PetitBallonProjectTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PetitBallonProjectTests.h; sourceTree = "<group>"; };
 		9B2E4CA8161C61A1000FBF91 /* PetitBallonProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PetitBallonProjectTests.m; sourceTree = "<group>"; };
-		9B2E4CBC161C656B000FBF91 /* CoursViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoursViewController.h; sourceTree = "<group>"; };
-		9B2E4CBD161C656B000FBF91 /* CoursViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoursViewController.m; sourceTree = "<group>"; };
-		9B2E4CBE161C656B000FBF91 /* CoursViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CoursViewController.xib; sourceTree = "<group>"; };
 		9B2E4CC1161C662D000FBF91 /* CommanderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommanderViewController.h; sourceTree = "<group>"; };
 		9B2E4CC2161C662D000FBF91 /* CommanderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommanderViewController.m; sourceTree = "<group>"; };
 		9B2E4CC3161C662D000FBF91 /* CommanderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CommanderViewController.xib; sourceTree = "<group>"; };
@@ -287,6 +287,8 @@
 				9B2E4CCB161C6769000FBF91 /* RootViewController.h */,
 				9B2E4CCC161C6769000FBF91 /* RootViewController.m */,
 				9B2E4CCD161C676A000FBF91 /* RootViewController.xib */,
+				9BAAE15516244E3700250BB1 /* logo.png */,
+				9BAAE0F916243D4900250BB1 /* degrade.jpg */,
 				9BAAE0F41624276700250BB1 /* VinViewController.h */,
 				9BAAE0F51624276700250BB1 /* VinViewController.m */,
 				9BAAE0F61624276700250BB1 /* VinViewController.xib */,
@@ -297,11 +299,9 @@
 				9B230D83169EC5B10063DBAE /* VinListViewController.m */,
 				9B230D82169EC5B10063DBAE /* VinListViewController.h */,
 				9B230D84169EC5B10063DBAE /* VinListViewController.xib */,
-				9BAAE0F916243D4900250BB1 /* degrade.jpg */,
-				9BAAE15516244E3700250BB1 /* logo.png */,
-				9B2E4CBC161C656B000FBF91 /* CoursViewController.h */,
-				9B2E4CBD161C656B000FBF91 /* CoursViewController.m */,
-				9B2E4CBE161C656B000FBF91 /* CoursViewController.xib */,
+				9B230D88169EE4B20063DBAE /* CoursViewController.h */,
+				9B230D89169EE4B20063DBAE /* CoursViewController.m */,
+				9B230D8A169EE4B20063DBAE /* CoursViewController.xib */,
 				9B2E4CC1161C662D000FBF91 /* CommanderViewController.h */,
 				9B2E4CC2161C662D000FBF91 /* CommanderViewController.m */,
 				9B2E4CC3161C662D000FBF91 /* CommanderViewController.xib */,
@@ -391,7 +391,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B2E4C8E161C61A1000FBF91 /* InfoPlist.strings in Resources */,
-				9B2E4CC0161C656B000FBF91 /* CoursViewController.xib in Resources */,
 				9B2E4CC5161C662D000FBF91 /* CommanderViewController.xib in Resources */,
 				9B2E4CCA161C6640000FBF91 /* CommenterViewController.xib in Resources */,
 				9B2E4CCF161C676A000FBF91 /* RootViewController.xib in Resources */,
@@ -405,6 +404,7 @@
 				9B2ADAC41639276A00E1F274 /* README.md in Resources */,
 				9B2ADAD616393AEA00E1F274 /* ListeVin.json in Resources */,
 				9B230D86169EC5B10063DBAE /* VinListViewController.xib in Resources */,
+				9B230D8C169EE4B20063DBAE /* CoursViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,7 +441,6 @@
 			files = (
 				9B2E4C90161C61A1000FBF91 /* main.m in Sources */,
 				9B2E4C94161C61A1000FBF91 /* AppDelegate.m in Sources */,
-				9B2E4CBF161C656B000FBF91 /* CoursViewController.m in Sources */,
 				9B2E4CC4161C662D000FBF91 /* CommanderViewController.m in Sources */,
 				9B2E4CC9161C6640000FBF91 /* CommenterViewController.m in Sources */,
 				9B2E4CCE161C676A000FBF91 /* RootViewController.m in Sources */,
@@ -454,6 +453,7 @@
 				9B2ADACA1639277C00E1F274 /* DownloadManager.m in Sources */,
 				9B2ADACB1639277C00E1F274 /* DownloadOperation.m in Sources */,
 				9B230D85169EC5B10063DBAE /* VinListViewController.m in Sources */,
+				9B230D8B169EE4B20063DBAE /* CoursViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

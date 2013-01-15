@@ -2,12 +2,12 @@
 //  CoursViewController.h
 //  PetitBallonProject
 //
-//  Created by Élèves on 03/10/12.
-//  Copyright (c) 2012 Élèves. All rights reserved.
+//  Created by Élèves on 10/01/13.
+//  Copyright (c) 2013 Élèves. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface CoursViewController : UIViewController
+@interface CoursViewController : UITableViewController
 
 @end
